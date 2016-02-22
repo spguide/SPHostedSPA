@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Type="ElementManifest" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.woff" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.ttf" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.svg" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.eot" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\FontAwesome.otf" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.woff" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.ttf" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.svg" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.eot" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="index.html" Type="ElementFile" />
+    <ProjectItemFile Source="favicon.ico" Type="ElementFile" />
+    <ProjectItemFile Source="app\services\directives.js" Target="app\services\" Type="ElementFile" />
+    <ProjectItemFile Source="app\services\datacontext.js" Target="app\services\" Type="ElementFile" />
+    <ProjectItemFile Source="app\layout\widgetheader.html" Target="app\layout\" Type="ElementFile" />
+    <ProjectItemFile Source="app\layout\topnav.html" Target="app\layout\" Type="ElementFile" />
+    <ProjectItemFile Source="app\layout\sidebar.js" Target="app\layout\" Type="ElementFile" />
+    <ProjectItemFile Source="app\layout\sidebar.html" Target="app\layout\" Type="ElementFile" />
+    <ProjectItemFile Source="app\layout\shell.js" Target="app\layout\" Type="ElementFile" />
+    <ProjectItemFile Source="app\layout\shell.html" Target="app\layout\" Type="ElementFile" />
+    <ProjectItemFile Source="app\dashboard\dashboard.js" Target="app\dashboard\" Type="ElementFile" />
+    <ProjectItemFile Source="app\dashboard\dashboard.html" Target="app\dashboard\" Type="ElementFile" />
+    <ProjectItemFile Source="app\config.route.js" Target="app\" Type="ElementFile" />
+    <ProjectItemFile Source="app\config.js" Target="app\" Type="ElementFile" />
+    <ProjectItemFile Source="app\config.exceptionHandler.js" Target="app\" Type="ElementFile" />
+    <ProjectItemFile Source="app\common\spinner.js" Target="app\common\" Type="ElementFile" />
+    <ProjectItemFile Source="app\common\logger.js" Target="app\common\" Type="ElementFile" />
+    <ProjectItemFile Source="app\common\common.js" Target="app\common\" Type="ElementFile" />
+    <ProjectItemFile Source="app\common\bootstrap\bootstrap.dialog.js" Target="app\common\bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="app\app.js" Target="app\" Type="ElementFile" />
+    <ProjectItemFile Source="app\admin\admin.js" Target="app\admin\" Type="ElementFile" />
+    <ProjectItemFile Source="app\admin\admin.html" Target="app\admin\" Type="ElementFile" />
+    <ProjectItemFile Source="app\services\datacontext.breeze.js" Target="app\services\" Type="ElementFile" />
+    <ProjectItemFile Source="app\config.breeze.js" Target="app\" Type="ElementFile" />
+    <ProjectItemFile Source="app\services\spContext.js" Target="app\services\" Type="ElementFile" />
+    <ProjectItemFile Source="app\models\breeze.entities.js" Target="app\models\" Type="ElementFile" />
+    <ProjectItemFile Source="app\util\jquery-extensions.js" Target="app\util\" Type="ElementFile" />
+    <ProjectItemFile Source="applauncher.html" Type="ElementFile" />
+    <ProjectItemFile Source="app\appLauncher.js" Target="app\" Type="ElementFile" />
+    <ProjectItemFile Source="app\tasks\taskdetail.html" Target="app\tasks\" Type="ElementFile" />
+    <ProjectItemFile Source="app\tasks\taskDetail.js" Target="app\tasks\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\font-awesome.min.css" Url="Content/font-awesome.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\font-awesome.css" Url="Content/font-awesome.css" ReplaceContent="TRUE" />
+    <File Path="Content\toastr.scss" Url="Content/toastr.scss" ReplaceContent="TRUE" />
+    <File Path="Content\toastr.min.css" Url="Content/toastr.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\toastr.less" Url="Content/toastr.less" ReplaceContent="TRUE" />
+    <File Path="Content\toastr.css" Url="Content/toastr.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-theme.min.css" Url="Content/bootstrap-theme.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-theme.css.map" Url="Content/bootstrap-theme.css.map" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-theme.css" Url="Content/bootstrap-theme.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.min.css" Url="Content/bootstrap.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.css.map" Url="Content/bootstrap.css.map" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.css" Url="Content/bootstrap.css" ReplaceContent="TRUE" />
+    <File Path="Content\styles.css" Url="Content/styles.css" ReplaceContent="TRUE" />
+    <File Path="Content\images\icon.png" Url="Content/images/icon.png" ReplaceContent="TRUE" />
+    <File Path="Content\images\breezelogo.png" Url="Content/images/breezelogo.png" ReplaceContent="TRUE" />
+    <File Path="Content\images\AngularJS-small.png" Url="Content/images/AngularJS-small.png" ReplaceContent="TRUE" />
+    <File Path="Content\ie10mobile.css" Url="Content/ie10mobile.css" ReplaceContent="TRUE" />
+    <File Path="Content\customtheme.css" Url="Content/customtheme.css" ReplaceContent="TRUE" />
+    <File Path="Content\breeze.directives.css" Url="Content/breeze.directives.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

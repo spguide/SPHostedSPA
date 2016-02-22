@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="fonts\fontawesome-webfont.woff" Url="fonts/fontawesome-webfont.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\fontawesome-webfont.ttf" Url="fonts/fontawesome-webfont.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\fontawesome-webfont.svg" Url="fonts/fontawesome-webfont.svg" ReplaceContent="TRUE" />
+    <File Path="fonts\fontawesome-webfont.eot" Url="fonts/fontawesome-webfont.eot" ReplaceContent="TRUE" />
+    <File Path="fonts\FontAwesome.otf" Url="fonts/FontAwesome.otf" ReplaceContent="TRUE" />
+    <File Path="fonts\glyphicons-halflings-regular.woff" Url="fonts/glyphicons-halflings-regular.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\glyphicons-halflings-regular.ttf" Url="fonts/glyphicons-halflings-regular.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\glyphicons-halflings-regular.svg" Url="fonts/glyphicons-halflings-regular.svg" ReplaceContent="TRUE" />
+    <File Path="fonts\glyphicons-halflings-regular.eot" Url="fonts/glyphicons-halflings-regular.eot" ReplaceContent="TRUE" />
+    <File Path="index.html" Url="index.html" ReplaceContent="TRUE" />
+    <File Path="favicon.ico" Url="favicon.ico" ReplaceContent="TRUE" />
+    <File Path="app\services\directives.js" Url="app/services/directives.js" ReplaceContent="TRUE" />
+    <File Path="app\services\datacontext.js" Url="app/services/datacontext.js" ReplaceContent="TRUE" />
+    <File Path="app\layout\widgetheader.html" Url="app/layout/widgetheader.html" ReplaceContent="TRUE" />
+    <File Path="app\layout\topnav.html" Url="app/layout/topnav.html" ReplaceContent="TRUE" />
+    <File Path="app\layout\sidebar.js" Url="app/layout/sidebar.js" ReplaceContent="TRUE" />
+    <File Path="app\layout\sidebar.html" Url="app/layout/sidebar.html" ReplaceContent="TRUE" />
+    <File Path="app\layout\shell.js" Url="app/layout/shell.js" ReplaceContent="TRUE" />
+    <File Path="app\layout\shell.html" Url="app/layout/shell.html" ReplaceContent="TRUE" />
+    <File Path="app\dashboard\dashboard.js" Url="app/dashboard/dashboard.js" ReplaceContent="TRUE" />
+    <File Path="app\dashboard\dashboard.html" Url="app/dashboard/dashboard.html" ReplaceContent="TRUE" />
+    <File Path="app\config.route.js" Url="app/config.route.js" ReplaceContent="TRUE" />
+    <File Path="app\config.js" Url="app/config.js" ReplaceContent="TRUE" />
+    <File Path="app\config.exceptionHandler.js" Url="app/config.exceptionHandler.js" ReplaceContent="TRUE" />
+    <File Path="app\common\spinner.js" Url="app/common/spinner.js" ReplaceContent="TRUE" />
+    <File Path="app\common\logger.js" Url="app/common/logger.js" ReplaceContent="TRUE" />
+    <File Path="app\common\common.js" Url="app/common/common.js" ReplaceContent="TRUE" />
+    <File Path="app\common\bootstrap\bootstrap.dialog.js" Url="app/common/bootstrap/bootstrap.dialog.js" ReplaceContent="TRUE" />
+    <File Path="app\app.js" Url="app/app.js" ReplaceContent="TRUE" />
+    <File Path="app\admin\admin.js" Url="app/admin/admin.js" ReplaceContent="TRUE" />
+    <File Path="app\admin\admin.html" Url="app/admin/admin.html" ReplaceContent="TRUE" />
+    <File Path="app\services\datacontext.breeze.js" Url="app/services/datacontext.breeze.js" ReplaceContent="TRUE" />
+    <File Path="app\config.breeze.js" Url="app/config.breeze.js" ReplaceContent="TRUE" />
+    <File Path="app\services\spContext.js" Url="app/services/spContext.js" ReplaceContent="TRUE" />
+    <File Path="app\models\breeze.entities.js" Url="app/models/breeze.entities.js" ReplaceContent="TRUE" />
+    <File Path="app\util\jquery-extensions.js" Url="app/util/jquery-extensions.js" ReplaceContent="TRUE" />
+    <File Path="applauncher.html" Url="applauncher.html" ReplaceContent="TRUE" />
+    <File Path="app\appLauncher.js" Url="app/appLauncher.js" ReplaceContent="TRUE" />
+    <File Path="app\tasks\taskdetail.html" Url="app/tasks/taskdetail.html" ReplaceContent="TRUE" />
+    <File Path="app\tasks\taskDetail.js" Url="app/tasks/taskDetail.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

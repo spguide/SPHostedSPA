@@ -1,0 +1,52 @@
+﻿<section id="dashboard-view" class="mainbar" data-ng-controller="dashboard as vm">
+    <section class="matter">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="widget wviolet">
+                        <div data-cc-widget-header title="Tasks"
+                             allow-collapse="true"></div>
+                        <div class="widget-content text-center text-info">
+                            <table>
+                                <tr>
+                                    <td><button ng-click="newTask()">New Task</button></td>
+                                </tr>
+                            </table>
+                            <table class="table table-condensed table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Id</th>
+                                        <th>Title</th>
+                                        <th>Priority</th>
+                                        <th>Created</th>
+                                        <th>Modified</th>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    
+                                    <tr data-ng-repeat="t in vm.tasks" >
+                                        <td>{{t.Id}}</td>
+                                        <td>{{t.Title}}</td>
+                                        <td>{{t.Priority}}</td>
+                                        <td>{{t.Created}}</td>
+                                        <td>{{t.Modified}}</td>
+                                        <td><button ng-click="gotoItem(t)" >Edit</button></td>
+                                        <td><button ng-click="goDelete(t)">Delete</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="widget-foot">
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+</section>

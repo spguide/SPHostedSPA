@@ -1,0 +1,25 @@
+﻿<section id="dashboard-view" class="mainbar" data-ng-controller="taskDetail as vm">
+    <section class="matter">
+
+        <form class ="form-horizontal">
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input required id="title" class="form-control" type="text" ng-model="vm.taskItem.Title" placeholder="task title.." />
+            </div>
+            <div class="form-group">
+                <label for="priority">Priority:</label>
+                <select class="form-control" id="priority" data-ng-model="vm.taskItem.Priority">
+                    <option value="">-- choose item type --</option>
+                    <option>(1) High</option>
+                    <option>(2) Normal</option>
+                    <option>(3) Low</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit" ng-click="vm.goSave()" class="btn btn-primary">Save</button>
+                <button type="button" ng-click="vm.goCancel()" class="btn btn-default">Cancel</button>
+            </div>
+        </form>
+
+    </section>
+</section>

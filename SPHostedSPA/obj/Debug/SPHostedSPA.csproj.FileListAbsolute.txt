@@ -1,0 +1,4 @@
+G:\Demo\SPA\SPHostedSPA\SPHostedSPA\bin\Debug\SPHostedSPA.pdb
+G:\Demo\SPA\SPHostedSPA\SPHostedSPA\obj\Debug\SPHostedSPA.dll
+G:\Demo\SPA\SPHostedSPA\SPHostedSPA\obj\Debug\SPHostedSPA.pdb
+G:\Demo\SPA\SPHostedSPA\SPHostedSPA\obj\Debug\SPHostedSPA.csprojResolveAssemblyReference.cache
