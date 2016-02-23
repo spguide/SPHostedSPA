@@ -32,7 +32,7 @@
               throw new Error('error obtaining data');
             }
           }).catch(function (error) {
-            common.logger.logError('error obtaining learning items', error, controllerId);
+            common.logger.logError('error obtaining tasks', error, controllerId);
           });
         }
 

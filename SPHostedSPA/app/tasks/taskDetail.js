@@ -10,14 +10,11 @@
   function taskDetail($window, $location, $routeParams, common, datacontext) {
     var vm = this;
 
-    // handle saves & deletes
     vm.goCancel = goCancel;
     vm.goSave = goSave;
-    vm.goDelete = goDelete;
 
     // initalize controller
     init();
-
 
     // initalize controller
     function init() {
@@ -52,19 +49,7 @@
       });
     }
 
-    // handle delete action
-    function goDelete() {
-      datacontext.deleteTask(vm.taskItem)
-        .then(function () {
-          common.logger.logSuccess("Deleted learning item.", null, controllerId);
-        })
-        .then(function () {
-          goBack();
-        });
-    }
-
-
-    // create a new learning path item
+    // create a new task
     function createItem() {
       var newtaskItem = datacontext.createTaskItem();
       vm.taskItem = newtaskItem;
@@ -77,36 +62,5 @@
           vm.taskItem = data;
         });
     }
-
-    // navigate backwards
-    function goBack() {
-      $window.history.back();
-    }
-
-    // handle revert pending item change and navigate back 
-    function goCancel() {
-      datacontext.revertChanges(vm.learningItem);
-      goBack();
-    }
-
-    // handle save action
-    function goSave() {
-      return datacontext.saveChanges()
-      .then(function () {
-        goBack();
-      });
-    }
-
-    // handle delete action
-    function goDelete() {
-      datacontext.deleteLearningItem(vm.learningItem)
-        .then(function () {
-          common.logger.logSuccess("Deleted learning item.", null, controllerId);
-        })
-        .then(function () {
-          goBack();
-        });
-    }
   }
-
 })();
